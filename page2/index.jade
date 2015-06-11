@@ -9,6 +9,7 @@ html
     //link(rel='canonical', href='index.html')
     // Custom CSS
     link(rel='stylesheet', href='../css/main.css') 
+    link(rel="icon" type="image/x-icon" href="../gemicon.png")
     
   body.bground
     #navbar
@@ -19,7 +20,9 @@ html
         .header
           ul
             li
-              a.extra.first(href='http://echo-man.github.io') Tentang Penulis
+              img.span(src="../gemicon.png")
+              | 
+              a.extra.first(href='http://echo-man.github.io')   Info Penulis
     
     .site.page-content
       .home
@@ -47,7 +50,7 @@ html
           li
             span.post-date 05/12/2009
             a.post-link(href="../post-the-cathedral/index.html") The Cathedral and The Bazaar 
-            p Ada tulisan-tulisan yang sangat menarik dari pak Made Wiryana tentang hakekat pengembangan suatu sistem operasi. Hal ini dituangkan kedalam buku From Germany With IT, hasil buah pikiran dan “lamunannya” setelah sempat mengenyam pendidikan di luar negeri (kalo tidak salah di Australia dan Jerman). Lewat tahapan studi di luar negeri, pak Made berpendapat bahwa ada pilar-pilar yang mendukung kesuksesan pencapaian teknologi di negeri-negeri tersebut dan lewat tulisan-tulisannya, pak Made berusaha menjejaki bagaimana proses-proses yang dilakukan orang-orang negeri tersebut mencapai titik kesuksesannya seperti saat ini..
+            p Model pengembangan suatu sistem bisa mengambil pendekatan salah satu model, yakni model Cathedral atau model Bazaar. Ada istilah lain untuk kedua jargon tersebut, yakni Top Down dan Bottom Up. Pada model Cathedral, hanya kaum elit yang bisa mengembangkan sistem. Model Bazaar memungkinkan menjadikan suatu sistem yang lebih cepat dan lebih terbuka, karena semua pihak (pengguna maupun perancang) diletakkan pada tatanan yang sejajar serta tidak adanya suatu persyaratan penerimaan dari tim elit..
               a.post-link(href="../post-the-cathedral/index.html") Selengkapnya
 
           li
@@ -67,7 +70,9 @@ html
     .footer
       .site
         .copyright(<p='')
-          | 2015 | &nbsp;Gema&nbsp;Buj | &nbsp;Sublime Text
+          | 2015 | &nbsp;
+          a(href="http://echo-man.github.io") Gema&nbsp;Buj 
+          ||&nbsp;Sublime Text
           br
           | Menulis adalah untuk keabadian
           img(src='', alt='')

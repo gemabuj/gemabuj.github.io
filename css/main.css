@@ -75,7 +75,7 @@ strong {
 .header ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 8;
   float: right;
   width:260px;
   white-space: nowrap;
@@ -94,7 +94,7 @@ strong {
 }
 
 .header a.extra {
-  color: #fff;
+  color: #E51515;
   margin-left: 1em;
 }
 
@@ -143,13 +143,13 @@ strong {
 
 .posts li {
   line-height: 28px;
-  background-color: #FBFCAC;
+  background-color: #FAFBCF;
   margin-bottom: 0px;
   padding: 15px 20px;
 }
 
 .posts span {
-  color: #000;
+  color: #E51515;
   border-right: 1px solid #000;
   padding-right: 10px;
   margin-right: 10px;
@@ -159,7 +159,7 @@ strong {
 
 .bground {
   /*background: url(../viking-bgd.png) no-repeat scroll center 65px;*/
-  background-color: #184156;
+  background-color: #FAFBCF;
 
 }
 
@@ -183,7 +183,7 @@ strong {
 
 .site {
   text-align: left;
-  max-width: 850px;
+  max-width: 900px;
   margin: 0 auto 2em;
   padding: 0 10px;
 }
@@ -220,13 +220,13 @@ hr {
 }
 
 .footer, .page-content:after {
-  height: 80px;
+  height: 68px;
 }
 
 .footer {
   color: #ffffff;
   margin-top: 20px;
-  padding: 20px 0;
+  padding: 20px 10px 0;
   background-color: #000000;
   font-size: 14px;
   line-height: 18px;
@@ -398,10 +398,11 @@ input {
 
   .header {
     text-align: left;
+    
   }
 
   .header ul {
-    float: left;
+    float: center;
     width: 100%;
   }
 
@@ -410,9 +411,9 @@ input {
     text-align: center;
   }
 
-  .viking {
+  .bground {
     background-image: none;
-    background-color: #184156;
+    background-color: #FAFBCF;
   }
   .rss-subscribe {
     color: #fff;
@@ -440,15 +441,19 @@ input {
   }
 
   .header ul {
-    margin: 0 auto;
+    margin: 0 0 0 30 auto;
     float: none;
   }
 
   .header {
     text-align: center;
-    border-top: 1px solid #444;
+    border-top: 1px solid #077EC8;
     margin-top: 15px;
-    padding-top: 10px;
+    padding-top: 5px;
+    background: #000000;
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   #logo img {
@@ -456,9 +461,9 @@ input {
     max-width:50%;
   }
 
-  .viking {
+  .bground {
     background-image: none;
-    background-color: #184156;
+    background-color: #FAFBCF;
   }
 
   .tagline {

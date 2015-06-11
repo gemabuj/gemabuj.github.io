@@ -9,6 +9,7 @@ html
     link(rel='canonical', href='index.html')
     // Custom CSS
     link(rel='stylesheet', href='../css/main.css')
+    link(rel="icon" type="image/x-icon" href="../gemicon.png")
     #navbar
       .site
         a#logo(href='')
@@ -17,7 +18,9 @@ html
         .header
           ul
             li
-              a.extra.first(href='http://echo-man.github.io') Tentang Penulis
+              img.span(src="../gemicon.png")
+              | 
+              a.extra.first(href='http://echo-man.github.io') Info Penulis
 
     .site.page-content
       .post-page
@@ -26,53 +29,40 @@ html
             i.icon-reply
               p 
             | Kembali ke Daftar Tulisan
-          h1 judul artikel
+          h1 Abarat
           .meta
             i.icon-calendar
-            | &nbsp;&nbsp;00 Dec 20xx
+            | &nbsp;&nbsp;02/03/2009
             | &bull;
             | &#x9;
             | &#x9;&#x9;
             a(href='http://echo-man.github.io') Gema Buj
         article.post.post-content
-          h1 Pembuka
-          p Teks
-          p
-            strong Bold 
-            | Teks
-      
-          p
-            strong Bold 
-            | Teks
+          p Peristiwanya berawal dari tempat paling membosankan di dunia : Chickentown. Kota yang dihuni oleh lebih banyak ayam daripada manusia. Di sinilah Candy Quackenbush tinggal. Dan ia bertanya-tanya, seperti apakah masa depannya nanti.
+          p Jawabannya datang secara tak terduga. Pertemuan mendadak dengan John Mischief (dia punya 7 saudara yang tinggal di tanduk-tanduk di kepalanya), dan kemunculan Laut Isabella entah dari mana, membawa Candy ke sebuah dunia lain.
+          p Dunia bernama ABARAT. Sebuah kepulauan luas yang tiap pulaunya memiliki jam berbeda. Antara lain Pulau Yebba Dim Day yang jamnya selalu jam delapan malam, Pulau Jam Tiga Siang yang hangat, tempat naga-naga berkeliaran, sampai Pulau Gorgossium, alias Pulau Tengah Malam yang dihuni oleh Christopher Carrion, Pangeran Tengah Malam, yang suka meneror orang dengan mimpi-mimpi buruk.
+          p Candy berpindah dari satu tempat ke tempat yang lain, mendapat teman-teman baru dan musuh-musuh aneh – serangga serangga bermesin, kupu-kupu raksasa, kucing-kucing belang, manusia dari lumpur, tukang sihir jahat dan budaknya yang ketakutan, dan akhirnya dia sadar: ia pernah berada disini. Candy pernah ada di dunia Abarat ini sebelumnya.
+          p Pasti ada sebabnya, kenapa dia dibawa dan akhirnya berada di sini : ia dibawa ke Abarat untuk menyelamatkan kepulauan ini dari kekuatan-kekuatan yang lebih tua daripada waktu, dan lebih jahat daripada apapun yang dilihat Candy.
 
-        form#mc-embedded-subscribe-form.validate(style='border: 1px dashed #000000; background-color:#eeeeee; padding: 25px;', action='http://8thcolor.us4.list-manage.com/subscribe/post?u=4c699a721dc16c7e14833175a&id=87e4812b3f', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+        form#mc-embedded-subscribe-form.validate(style='border: 1px dashed #000000; background-color:#eeeeee; padding: 25px;', action='', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
           label(for='mce-EMAIL')
 
-            strong Pustaka Tulisan
+            strong Inspirasi Tulisan
             br
-            | Pustaka yang disitir untuk menulis artikel ini
+            | Clive Barker seorang seniman sejati. Teknik penceritaan yang unik dan  lukisan-lukisan ( berjumlah total 200-an lebih lukisan) yang digunakannya sebagai ilustrasi pada bukunya, menjadikan karyanya ini lengkap dan berbobot.
           br
          
         a(href='../page3/index.html', title='Kembali ke Daftar Tulisan')
           i.icon-reply
             p
           |  Kembali ke Daftar Tulisan 
-
-        //.addthis_sharing_toolbox
-        //#page-navigation
-          .clear &nbsp;
-          .left
-            a(href='../../08/pullreview-shareable-private-review-and-test-coverage-integration/index.html', title='Previous Post: PullReview: Shareable Private Review and Test Coverage Integration')
-              i.icon-double-angle-left
-              |  PullReview: Shareable Private Review and Test Coverage Integration
-          .right
-          |   &#x9;
-          .clear &nbsp;
           
     .footer
       .site
         .copyright(<p='')
-          | 2015 | &nbsp;Gema&nbsp;Buj | &nbsp;Sublime Text
+          | 2015 | &nbsp;
+          a(href="http://echo-man.github.io") Gema&nbsp;Buj 
+          ||&nbsp;Sublime Text
           br
           | Menulis adalah untuk keabadian
           img(src='', alt='')

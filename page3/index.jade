@@ -9,6 +9,7 @@ html
     //link(rel='canonical', href='index.html')
     // Custom CSS
     link(rel='stylesheet', href='../css/main.css') 
+    link(rel="icon" type="image/x-icon" href="../gemicon.png")
     
   body.bground
     #navbar
@@ -19,8 +20,10 @@ html
         .header
           ul
             li
-              a.extra.first(href='http://echo-man.github.io') Tentang Penulis
-    
+              img.span(src="../gemicon.png")
+              | 
+              a.extra.first(href='http://echo-man.github.io')   Info Penulis
+
     .site.page-content
       .home
         //h1 Daftar Tulisan
@@ -35,7 +38,7 @@ html
           li
             span.post-date 30/11/2009
             a.post-link(href="../post-belajar-atom/index.html") Belajar Atom dan Molekul Dengan Kalzium
-            p Seandainya pada jaman SMA dulu internet sudah berkembang pesat seperti sekarang, dan harga laptop pun cukup terjangkau pada masa itu, mungkin impresi saya tentang pelajaran-pelajaran eksak akan sedikit berkembang daripada impresi saya dahulu..
+            p Salah satu ilmu pelajaran eksakta yang menantang adalah kimia atom dan molekul. Jaman dulu, guru (bahkan guru di sekolah yang katanya favorit pun) menerangkan konsep ikatan atom, molekul, valensi, spektrum dan sebagainya dengan media seadanya: kapur dan papan tulis. Demikian pula dengan konsep pengajarannya. Kasarnya boleh dibilang kurang bermutu..
               a.post-link(href="../post-belajar-atom/index.html") Selengkapnya
 
           li
@@ -67,7 +70,9 @@ html
     .footer
       .site
         .copyright(<p='')
-          | 2015 | &nbsp;Gema&nbsp;Buj | &nbsp;Sublime Text
+          | 2015 | &nbsp;
+          a(href="http://echo-man.github.io") Gema&nbsp;Buj 
+          ||&nbsp;Sublime Text
           br
           | Menulis adalah untuk keabadian
           img(src='', alt='')

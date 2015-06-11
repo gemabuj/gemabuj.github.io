@@ -9,6 +9,7 @@ html
     link(rel='canonical', href='index.html')
     // Custom CSS
     link(rel='stylesheet', href='../css/main.css')
+    link(rel="icon" type="image/x-icon" href="../gemicon.png")
     #navbar
       .site
         a#logo(href='')
@@ -17,7 +18,9 @@ html
         .header
           ul
             li
-              a.extra.first(href='http://echo-man.github.io') Tentang Penulis
+              img.span(src="../gemicon.png")
+              | 
+              a.extra.first(href='http://echo-man.github.io') Info Penulis
 
     .site.page-content
       .post-page
@@ -26,53 +29,40 @@ html
             i.icon-reply
               p 
             | Kembali ke Daftar Tulisan
-          h1 judul artikel
+          h1 We Are Smarter Than Me
           .meta
             i.icon-calendar
-            | &nbsp;&nbsp;00 Dec 20xx
+            | &nbsp;&nbsp;11/05/2010
             | &bull;
             | &#x9;
             | &#x9;&#x9;
             a(href='http://echo-man.github.io') Gema Buj
         article.post.post-content
-          h1 Pembuka
-          p Teks
-          p
-            strong Bold 
-            | Teks
-      
-          p
-            strong Bold 
-            | Teks
+          p Percaya ngga kalo pengetahuan, aspirasi, komentar dan buah tulisan yang di-share secara kolektif oleh para internet user (baca: saya dan anda, pembaca sekalian) akan membuat pribadi kita menjadi lebih pintar dibandingkan bila kita menghabiskan waktu untuk mencari berbagai pengetahuan itu seorang diri? 
+          p We Are Smarter Than Me adalah proyek pilot kolaboratif-menulis menggunakan perangkat lunak wiki, yang tujuan awalnya adalah memproduksi sebuah buku tentang proses pengambilan keputusan yang menggunakan sejumlah besar orang. Buku pertama diterbitkan sebagai buku cetak, akhir tahun 2007, oleh konglomerat penerbitan Pendidikan Pearson.
+          p Senada dengan We Are Smarter Than Me, Wisdom of The Crowd, adalah sebuah buku yang ditulis oleh James Surowiecki tentang agregasi informasi dalam kelompok, sehingga keputusan hasil pemikiran bersama-sama  orang-orang dalam kelompok tersebut sering kali lebih baik dari pada keputusan yang dibuat oleh salah satu anggota kelompok saja . Buku ini menyajikan berbagai studi kasus dan anekdot untuk mengilustrasikan argumen, dan menyentuh pada beberapa bidang, terutama ekonomi dan psikologi.
+          p Lepas dari segala dukungan dan sikap skeptis, menurut saya pribadi, budaya baca-tulis-sharing adalah budaya bangsa yang maju. Dengan membaca kita belajar untuk menyerap informasi sebanyak-banyaknya. Dengan menulis kita belajar untuk menuangkan hasil penyerapan informasi tadi sedetil-detilnya. Dengan posting dan sharing, kita akan belajar membentuk karakter yang gentle. Kita akan belajar berargumen dan mempertahankan pendapat.
+          p Jika ternyata memang argumen kita patah, kita akan belajar untuk… menyerap ilmu lagi. Membaca ulang. Bertanya. Berdiskusi. So, jangan pernah takut untuk menulis dan berargumen lagi di web, blog maupun forum-forum. Selamat menikmati borderless world ala Web 2.0.
 
-        form#mc-embedded-subscribe-form.validate(style='border: 1px dashed #000000; background-color:#eeeeee; padding: 25px;', action='http://8thcolor.us4.list-manage.com/subscribe/post?u=4c699a721dc16c7e14833175a&id=87e4812b3f', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+        form#mc-embedded-subscribe-form.validate(style='border: 1px dashed #000000; background-color:#eeeeee; padding: 25px;', action='', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
           label(for='mce-EMAIL')
 
-            strong Pustaka Tulisan
+            strong Inspirasi Tulisan
             br
-            | Pustaka yang disitir untuk menulis artikel ini
+            | Media wiki telah menjadi sumber inspirasi dan perdebatan. Tidak sedikit (BANYAK SEKALI) orang-orang yang merasa terbantu dan bertambah pengetahuannya setelah dibuatnya "perpustakaan digital online" yang diisi dan dibaca oleh komunitas. Namun banyak praktisi yang ragu dengan kredibilitas tulisan-tulisan di media wiki yang anonim tersebut. Memang ada ketakutan, yang kini terbukti, bahwa internet akan dipenuhi tulisan-tulisan yang tidak kredibel ("garbage in, garbage out"). Namun demikian, kumpulan kecerdasan komunal yang dibangun oleh netizen lewat media online juga terbukti meningkatkan laju serapan dan akses informasi dibandingkan beberapa tahun lalu.
           br
          
         a(href='../page2/index.html', title='Kembali ke Daftar Tulisan')
           i.icon-reply
             p
           |  Kembali ke Daftar Tulisan 
-
-        //.addthis_sharing_toolbox
-        //#page-navigation
-          .clear &nbsp;
-          .left
-            a(href='../../08/pullreview-shareable-private-review-and-test-coverage-integration/index.html', title='Previous Post: PullReview: Shareable Private Review and Test Coverage Integration')
-              i.icon-double-angle-left
-              |  PullReview: Shareable Private Review and Test Coverage Integration
-          .right
-          |   &#x9;
-          .clear &nbsp;
           
     .footer
       .site
         .copyright(<p='')
-          | 2015 | &nbsp;Gema&nbsp;Buj | &nbsp;Sublime Text
+          | 2015 | &nbsp;
+          a(href="http://echo-man.github.io") Gema&nbsp;Buj 
+          ||&nbsp;Sublime Text
           br
           | Menulis adalah untuk keabadian
           img(src='', alt='')

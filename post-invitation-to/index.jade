@@ -9,6 +9,7 @@ html
     link(rel='canonical', href='index.html')
     // Custom CSS
     link(rel='stylesheet', href='../css/main.css')
+    link(rel="icon" type="image/x-icon" href="../gemicon.png")
     #navbar
       .site
         a#logo(href='')
@@ -17,7 +18,9 @@ html
         .header
           ul
             li
-              a.extra.first(href='http://echo-man.github.io') Tentang Penulis
+              img.span(src="../gemicon.png")
+              | 
+              a.extra.first(href='http://echo-man.github.io') Info Penulis
 
     .site.page-content
       .post-page
@@ -26,53 +29,40 @@ html
             i.icon-reply
               p 
             | Kembali ke Daftar Tulisan
-          h1 judul artikel
+          h1 Invitation to Computer Science
           .meta
             i.icon-calendar
-            | &nbsp;&nbsp;00 Dec 20xx
+            | &nbsp;&nbsp;31/01/2010
             | &bull;
             | &#x9;
             | &#x9;&#x9;
             a(href='http://echo-man.github.io') Gema Buj
         article.post.post-content
-          h1 Pembuka
-          p Teks
-          p
-            strong Bold 
-            | Teks
-      
-          p
-            strong Bold 
-            | Teks
+          p Secara kita sadari ataupun tidak, ada dua MISKONSEPSI utama tentang Computer Science yakni: Computer Science adalah studi tentang komputer dan yang terakhir, Computer Science adalah studi tentang penggunaan piranti keras (hardware) dan piranti lunak (software). Mencuplik pendapat Michael R. Fellows dan Ian Parberry dalam tulisan mereka di Computing Research News, bahwa "Computer science is no more about computer than astronomy is about telescope, biology is about microscope, or chemistry is about glass-beakers and test tubes. Science is not about tools. It’s about how we use them and what we find out when we do".
+          p Menggunakan piranti keras dan piranti lunak bukanlah bagian paling utama dari Computer Science, bahkan tidak berhubungan, seperti cara mengemudikan mobil yang tidak berhubungan dengan cara pembuatan mobil di pabrik. Ini menjawab miskonsepsi kedua. Ada banyak orang yang bisa menggunakan piranti keras dan lunak, namun hanya para Computer Scientist saja yang mampu untuk melakukan proses specifying, designing, building dan testing pada aneka piranti tersebut.
+          p Miskonsepsi tentang Computer Science diatas tidak sepenuhnya salah, hanya saja kurang lengkap. Komputer, bahasa pemrograman, software dan aneka aplikasi adalah bagian dari Computer Science, namun gabungan semuanya masih belum cukup untuk menangkap inti keseluruhan dari Computer Science.
+          p Apakah konsep sentral dari Computer Science? Algoritma. Apakah algoritma itu? Algoritma is a procedure for solving a mathematical problem in a finite number of steps that frequently involves repetition of an operation. Algoritma is a step by step method for accomplishing some task.
+          p Pertanyaan inti dan pamungkas, jadi, apakah Computer Science itu? Computer Science is the study of algorithms, including their formal and mathematical properties, their hardware realizations, their linguistic realizations and their applications. 
 
-        form#mc-embedded-subscribe-form.validate(style='border: 1px dashed #000000; background-color:#eeeeee; padding: 25px;', action='http://8thcolor.us4.list-manage.com/subscribe/post?u=4c699a721dc16c7e14833175a&id=87e4812b3f', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+        form#mc-embedded-subscribe-form.validate(style='border: 1px dashed #000000; background-color:#eeeeee; padding: 25px;', action='', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
           label(for='mce-EMAIL')
 
-            strong Pustaka Tulisan
+            strong Inspirasi Tulisan
             br
-            | Pustaka yang disitir untuk menulis artikel ini
+            | Buku Invitation to Computer Science karangan G. Michael Schneider dan Judith L. Gersting membahas berbagai aspek Computer Science secara mendalam dan komprehensif, meliputi: fondasi algoritma, hardware, virtual machine, software, aplikasi dan penerapan komputer di dunia sosial dengan keunggulan dan permasalahannya. Buku menarik yang layak dijadikan santapan wajib bagi para computer-nerd.
           br
          
         a(href='../page3/index.html', title='Kembali ke Daftar Tulisan')
           i.icon-reply
             p
           |  Kembali ke Daftar Tulisan 
-
-        //.addthis_sharing_toolbox
-        //#page-navigation
-          .clear &nbsp;
-          .left
-            a(href='../../08/pullreview-shareable-private-review-and-test-coverage-integration/index.html', title='Previous Post: PullReview: Shareable Private Review and Test Coverage Integration')
-              i.icon-double-angle-left
-              |  PullReview: Shareable Private Review and Test Coverage Integration
-          .right
-          |   &#x9;
-          .clear &nbsp;
           
     .footer
       .site
         .copyright(<p='')
-          | 2015 | &nbsp;Gema&nbsp;Buj | &nbsp;Sublime Text
+          | 2015 | &nbsp;
+          a(href="http://echo-man.github.io") Gema&nbsp;Buj 
+          ||&nbsp;Sublime Text
           br
           | Menulis adalah untuk keabadian
           img(src='', alt='')
